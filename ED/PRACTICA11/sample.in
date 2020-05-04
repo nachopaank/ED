@@ -1,0 +1,16 @@
+mina 1 1
+jugador Guillermo
+jugador Guillermo
+explorar Guillermo 1 0
+mina 2 1
+explorar Guillermo 1 0
+mina 3 2
+bandera Guillermo 1 1
+bandera Noexiste 1 1
+bordes
+FIN
+mina -1 0
+jugador Clara
+explorar Clara -1 0
+explorar Clara 0 0
+FIN

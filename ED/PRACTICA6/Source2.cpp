@@ -173,21 +173,21 @@ void tratar_caso() {
 	}
 }
 //COSTE
-//El coste de la función nonsense podemos decir que tiene un coste cuadrático con respecto al número de nodos que esten entre el primer nivel y el último ,ya que se 
-//visita cada nodo como máximo dos veces , esto es asi en el caso en el que un padre tenga nietos , es decir, habría que comparar la fecha del padre con la del hijo ,y 
+//El coste de la funciï¿½n nonsense podemos decir que tiene un coste cuadrï¿½tico con respecto al nï¿½mero de nodos que esten entre el primer nivel y el ï¿½ltimo ,ya que se 
+//visita cada nodo como mï¿½ximo dos veces , esto es asi en el caso en el que un padre tenga nietos , es decir, habrï¿½a que comparar la fecha del padre con la del hijo ,y 
 //a su vez la fecha de este con la de su hijo , accediendo dos veces .
-//Por ejemplo si tuviesemos este árbol
+//Por ejemplo si tuviesemos este ï¿½rbol
 //         JUAN
 //   PACO    LUCIA   LEIRE
 //   ALFREDO          PEDRO
-//Habría que acceder a la fecha de Juan y Paco ,despues habría que comparar a Paco y Alfredo...
-//Por lo que se accedería a Paco dos veces.
-//El coste es cuadrático segun el número de nodos mencionado anteriormente , ya que al padre(la raiz del árbol) solo se le visita 1 vez ,además ocurre que a la útima generación de la familia
+//Habrï¿½a que acceder a la fecha de Juan y Paco ,despues habrï¿½a que comparar a Paco y Alfredo...
+//Por lo que se accederï¿½a a Paco dos veces.
+//El coste es cuadrï¿½tico segun el nï¿½mero de nodos mencionado anteriormente , ya que al padre(la raiz del ï¿½rbol) solo se le visita 1 vez ,ademï¿½s ocurre que a la ï¿½tima generaciï¿½n de la familia
 //no se accede a su fecha mas de una vez ya que no hay mas descendientes con los que comparar.
 
 int main() {
 #ifndef DOMJUDGE
-	std::ifstream in("Text.txt");
+	std::ifstream in("ED/PRACTICA6/Text.txt");
 	auto cinbuf = std::cin.rdbuf(in.rdbuf());
 #endif
 

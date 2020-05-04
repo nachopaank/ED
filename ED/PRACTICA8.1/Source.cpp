@@ -5,12 +5,12 @@
  */
 
  /*
-  * MUY IMPORTANTE: Para realizar este ejercicio solo podéis
-  * modificar el código contenido entre las etiquetas <answer>
-  * y </answer>. Toda modificación fuera de esas etiquetas está
-  * prohibida, pues no será corregida.
+  * MUY IMPORTANTE: Para realizar este ejercicio solo podï¿½is
+  * modificar el cï¿½digo contenido entre las etiquetas <answer>
+  * y </answer>. Toda modificaciï¿½n fuera de esas etiquetas estï¿½
+  * prohibida, pues no serï¿½ corregida.
   *
-  * Tampoco esta permitido modificar las líneas que contienen
+  * Tampoco esta permitido modificar las lï¿½neas que contienen
   * las etiquetas <answer> y </answer>, obviamente :-)
   */
 
@@ -33,7 +33,7 @@
 
 
 /*
-  Implementación de la clase BinTree para representar árboles binarios.
+  Implementaciï¿½n de la clase BinTree para representar ï¿½rboles binarios.
  */
 
 template<class T>
@@ -78,8 +78,8 @@ public:
 private:
 	// Las definiciones de TreeNode y NodePointer dependen recursivamente
 	// la una de la otra. Por eso declaro 'struct TreeNode;' antes de NodePointer
-	// para que el compilador sepa, cuando analice la definición de NodePointer,
-	// que TreeNode va a ser definida más adelante.
+	// para que el compilador sepa, cuando analice la definiciï¿½n de NodePointer,
+	// que TreeNode va a ser definida mï¿½s adelante.
 
 	struct TreeNode;
 	using NodePointer = std::shared_ptr<TreeNode>;
@@ -109,8 +109,8 @@ private:
 };
 
 /*
- * Operador << para mostrar un árbol por pantalla. No es necesario hacer esto
- * en la práctica, pero os lo dejo por si queréis depurar.
+ * Operador << para mostrar un ï¿½rbol por pantalla. No es necesario hacer esto
+ * en la prï¿½ctica, pero os lo dejo por si querï¿½is depurar.
  */
 template<typename T>
 std::ostream & operator<<(std::ostream &out, const BinTree<T> &tree) {
@@ -120,12 +120,12 @@ std::ostream & operator<<(std::ostream &out, const BinTree<T> &tree) {
 
 
 /*
- * Función para leer un árbol binario de la entrada. El formato es el siguiente:
+ * Funciï¿½n para leer un ï¿½rbol binario de la entrada. El formato es el siguiente:
  *
- *  Árbol vacío: .
- *  Árbol no vacío: (i x r)  donde i es la representación del hijo izquierdo
- *                                 x es la raíz
- *                                 r es la representación del hijo derecho
+ *  ï¿½rbol vacï¿½o: .
+ *  ï¿½rbol no vacï¿½o: (i x r)  donde i es la representaciï¿½n del hijo izquierdo
+ *                                 x es la raï¿½z
+ *                                 r es la representaciï¿½n del hijo derecho
  */
 template<typename T>
 BinTree<T> read_tree(std::istream &in) {
@@ -261,7 +261,7 @@ void tratar_caso() {
 
 int main() {
 #ifndef DOMJUDGE
-	std::ifstream in("Text.txt");
+	std::ifstream in("ED/PRACTICA8.1/sample.in");
 	auto cinbuf = std::cin.rdbuf(in.rdbuf());
 #endif
 

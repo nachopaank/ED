@@ -631,7 +631,7 @@ bool tratar_caso() {
 
 int main() {
 #ifndef DOMJUDGE
-  std::ifstream in("sample.in");
+  std::ifstream in("ED/PRACTICA9/sample.in");
   auto cinbuf = std::cin.rdbuf(in.rdbuf());
 #endif
   

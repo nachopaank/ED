@@ -118,7 +118,7 @@ long Polinomio::evaluar(int valor) const {
 int main() {
 
 #ifndef DOMJUDGE
-	std::ifstream in("Text.txt");
+	std::ifstream in("ED/PRACTICA1.2/Text.txt");
 	auto cinbuf = std::cin.rdbuf(in.rdbuf());
 #endif
 	int n, v;

@@ -5,12 +5,12 @@
  */
 
  /*
-  * MUY IMPORTANTE: Para realizar este ejercicio solo podéis
-  * modificar el código contenido entre las etiquetas <answer>
-  * y </answer>. Toda modificación fuera de esas etiquetas está
-  * prohibida, pues no será corregida.
+  * MUY IMPORTANTE: Para realizar este ejercicio solo podï¿½is
+  * modificar el cï¿½digo contenido entre las etiquetas <answer>
+  * y </answer>. Toda modificaciï¿½n fuera de esas etiquetas estï¿½
+  * prohibida, pues no serï¿½ corregida.
   *
-  * Tampoco esta permitido modificar las líneas que contienen
+  * Tampoco esta permitido modificar las lï¿½neas que contienen
   * las etiquetas <answer> y </answer>, obviamente :-)
   */
 
@@ -212,7 +212,7 @@ void ListLinkedSingle::display(std::ostream& out) const {
 }
 
 /* ==============================================================================================
- * Implementa aquí el método merge y la función merge_lists
+ * Implementa aquï¿½ el mï¿½todo merge y la funciï¿½n merge_lists
  * ==============================================================================================
  *
  *@ <answer>
@@ -222,14 +222,14 @@ void ListLinkedSingle::display(std::ostream& out) const {
 using namespace std;
 //2.COSTE
 //El coste de merge en el caso peor podemos decir que es lineal con respecto de n , donde n es una variable que representaria el numero de nodos 
-//de la lista enlazada con mayor tamaño ,ya que el caso peor ocurriria en el que una lista seria mayor que la otra , suponiendo que es necesario seguir recorriendola hasta el final
+//de la lista enlazada con mayor tamaï¿½o ,ya que el caso peor ocurriria en el que una lista seria mayor que la otra , suponiendo que es necesario seguir recorriendola hasta el final
 //notese que la variable descrita anteriormente como n no aparece en el programa, a continuacion reflejamos un ejemplo de esto ultimo
 //1 2 3 4 5 6 7  
 //9
 //como ve, es necesario recorrer la primera lista en su totalidad para poder asignar el nodo de la otra lista al final
-//este caso es uno de los muchos que existen , por ello suponiendo lo anterior el coste como maximo es de orden O(n) donde n es el tamaño de la lista con mayor tamaño 
+//este caso es uno de los muchos que existen , por ello suponiendo lo anterior el coste como maximo es de orden O(n) donde n es el tamaï¿½o de la lista con mayor tamaï¿½o 
 //suponiendo que el caso peor es el mencionado anteriormente
-//generalizando un poco podemos decir entonces que el coste se refiere al maximo tamaño de entre las dos listas en el caso peor
+//generalizando un poco podemos decir entonces que el coste se refiere al maximo tamaï¿½o de entre las dos listas en el caso peor
 
 
 
@@ -317,7 +317,7 @@ void tratar_caso() {
 int main() {
 	
 #ifndef DOMJUDGE
-	std::ifstream in("Texto.txt");
+	std::ifstream in("ED/PRACTICA2/Text.txt");
 	auto cinbuf = std::cin.rdbuf(in.rdbuf());
 #endif
 	int num_casos;

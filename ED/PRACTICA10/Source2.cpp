@@ -3,7 +3,7 @@
  *                ESTRUCTURAS DE DATOS
  * ---------------------------------------------------
  *              Manuel Montenegro Montes
- *              Facultad de Informática
+ *              Facultad de Informï¿½tica
  *         Universidad Complutense de Madrid
  * ---------------------------------------------------
  */
@@ -70,7 +70,9 @@ bool tratar_caso() {
 							s[(*it2)]--;
 						}
 						if (s[(*it2)] == 0) {
+							cout << s[(*it2)] << " "; //aqui
 							b = false;
+
 						}
 						it2++;
 					}
@@ -81,12 +83,12 @@ bool tratar_caso() {
 			}
 		}
 		
-		
+		/*
 		for (auto it : s) {
 			if (it.second == 0) {
 				cout << it.first << " ";
 			}
-		}
+		}*/
 		cout << endl;
 	    return true;
 	}
@@ -99,7 +101,7 @@ bool tratar_caso() {
 
 int main() {
 #ifndef DOMJUDGE
-	std::ifstream in("Text.txt");
+	std::ifstream in("ED/PRACTICA10/sample.in");
 	auto cinbuf = std::cin.rdbuf(in.rdbuf());
 #endif
 
