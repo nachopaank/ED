@@ -5,12 +5,12 @@
  */
 
  /*
-  * MUY IMPORTANTE: Para realizar este ejercicio solo podéis
-  * modificar el código contenido entre las etiquetas <answer>
-  * y </answer>. Toda modificación fuera de esas etiquetas está
-  * prohibida, pues no será corregida.
+  * MUY IMPORTANTE: Para realizar este ejercicio solo podï¿½is
+  * modificar el cï¿½digo contenido entre las etiquetas <answer>
+  * y </answer>. Toda modificaciï¿½n fuera de esas etiquetas estï¿½
+  * prohibida, pues no serï¿½ corregida.
   *
-  * Tampoco esta permitido modificar las líneas que contienen
+  * Tampoco esta permitido modificar las lï¿½neas que contienen
   * las etiquetas <answer> y </answer>, obviamente :-)
   */
 
@@ -35,7 +35,7 @@
 
 
 /*
-  Implementación de la clase BinTree para representar árboles binarios.
+  Implementaciï¿½n de la clase BinTree para representar ï¿½rboles binarios.
 
   Para realizar este ejercicio no es necesario modificar la clase.
  */
@@ -108,8 +108,8 @@ private:
 };
 
 /*
- * Operador << para mostrar un árbol por pantalla. No es necesario mostrar árboles
- * por pantalla en la práctica, pero os lo dejo por si queréis depurar.
+ * Operador << para mostrar un ï¿½rbol por pantalla. No es necesario mostrar ï¿½rboles
+ * por pantalla en la prï¿½ctica, pero os lo dejo por si querï¿½is depurar.
  */
 template<typename T>
 std::ostream & operator<<(std::ostream &out, const BinTree<T> &tree) {
@@ -119,12 +119,12 @@ std::ostream & operator<<(std::ostream &out, const BinTree<T> &tree) {
 
 
 /*
- * Función para leer un árbol binario de la entrada. El formato es el siguiente:
+ * Funciï¿½n para leer un ï¿½rbol binario de la entrada. El formato es el siguiente:
  *
- *  Árbol vacío: .
- *  Árbol no vacío: (i x r)  donde i es la representación del hijo izquierdo
- *                                 x es la raíz
- *                                 r es la representación del hijo derecho
+ *  ï¿½rbol vacï¿½o: .
+ *  ï¿½rbol no vacï¿½o: (i x r)  donde i es la representaciï¿½n del hijo izquierdo
+ *                                 x es la raï¿½z
+ *                                 r es la representaciï¿½n del hijo derecho
  */
 template<typename T>
 BinTree<T> read_tree(std::istream &in) {
@@ -150,8 +150,8 @@ BinTree<T> read_tree(std::istream &in) {
 
 /*@ <answer> */
 
-/* Completa a continuación la función pedida. Puedes definir las funciones
-   auxiliares que necesites, ¡pero siempre antes de la etiqueta </answer>! */
+/* Completa a continuaciï¿½n la funciï¿½n pedida. Puedes definir las funciones
+   auxiliares que necesites, ï¿½pero siempre antes de la etiqueta </answer>! */
 
 using namespace std;
 bool hoja(const BinTree<int> & montanya) {
@@ -192,20 +192,20 @@ int max_hitos_visitados(const BinTree<int> &montanya) {
 }
 
 //COSTE ARBOL EQUILIBRADO
-//La recurrencia de este caso es la siguiente , donde n denota el número de nodos del árbol y  las k son constantes y donde n=ni+nj +1,ni y nj es el número de nodos de los dos hijos
+//La recurrencia de este caso es la siguiente , donde n denota el nï¿½mero de nodos del ï¿½rbol y  las k son constantes y donde n=ni+nj +1,ni y nj es el nï¿½mero de nodos de los dos hijos
 //      |k1 si n=0
 //T(n) =|
 //      |
 //      |T(ni) +T(nj) +k2 si n>0
-//Es decir el coste de esta función es lineal con respecto al número de nodos del árbol , T(n) por inducción sabemos que el coste es lineal
+//Es decir el coste de esta funciï¿½n es lineal con respecto al nï¿½mero de nodos del ï¿½rbol , T(n) por inducciï¿½n sabemos que el coste es lineal
 
 //COSTE EL ARBOL DEGENERADO
-//La recurrencia de este caso es la siguiente , donde n denota el número de nodos del arbol y  las k son constantes 
+//La recurrencia de este caso es la siguiente , donde n denota el nï¿½mero de nodos del arbol y  las k son constantes 
 //      |k1 si n=0
 //T(n) =|
 //      |
 //      |T(n) +k2 si n>0
-//En este caso aunque el árbol sea degenerado se recorren igualmente el número de nodos totales del arbol , T(n) por inducción sabemos que el coste es lineal
+//En este caso aunque el ï¿½rbol sea degenerado se recorren igualmente el nï¿½mero de nodos totales del arbol , T(n) por inducciï¿½n sabemos que el coste es lineal
 
 /*@ </answer> */
 
@@ -223,7 +223,7 @@ bool tratar_caso() {
 
 int main() {
 #ifndef DOMJUDGE
-	std::ifstream in("Text.txt");
+	std::ifstream in("ED/PRACTICA7/Text.txt");
 	auto cinbuf = std::cin.rdbuf(in.rdbuf());
 #endif
 
