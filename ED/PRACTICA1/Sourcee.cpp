@@ -9,17 +9,17 @@ const int GRADO_MAX = 5000;
 //3.
 //Polinomio()  
 //Coste del constructor:Polinomio()
-//el coste es lineal con respecto a GRADO_MAX ,ya que existe un bucle iterativo que recorre todas las posiciones del vector de tamaño GRADO_MAX
+//el coste es lineal con respecto a GRADO_MAX ,ya que existe un bucle iterativo que recorre todas las posiciones del vector de tamaï¿½o GRADO_MAX
 //asignando el valor 0 , por ello el coste esta en el orden de O(GRADO_MAX) donde GRADO_MAX es el grado maximo que puede tener un polinomio en este caso
 
 //Coste de  void Polinomio::anyadir_monomio(int coef, int exp)
-//El coste de este método es constante ya que como sabemos las asginaciones y accesos son de coste constante y por tanto podemos decir que es del orden de O(1)
-//al solo existir este tipo de operaciones en el método.
+//El coste de este mï¿½todo es constante ya que como sabemos las asginaciones y accesos son de coste constante y por tanto podemos decir que es del orden de O(1)
+//al solo existir este tipo de operaciones en el mï¿½todo.
 
 //Coste de  long Polinomio::evaluar(int valor) const 
 //Podemos observar que el coste de este metodo es lineal con respecto a GRADO_MAX siendo GRADO_MAX el maximo grado de un polinomio , esto se debe a que el bucle que existe
-//en el método se ejecuta siempre GRADO_MAX veces en cualquier caso , recorriendo el bucle de principio a fin, por tanto podemos decir que esta en O(GRADO_MAX)
-//las demas operaciones del método son constantes , por ello el coste en el caso peor y mejor es el mismo , O(GRADO_MAX)
+//en el mï¿½todo se ejecuta siempre GRADO_MAX veces en cualquier caso , recorriendo el bucle de principio a fin, por tanto podemos decir que esta en O(GRADO_MAX)
+//las demas operaciones del mï¿½todo son constantes , por ello el coste en el caso peor y mejor es el mismo , O(GRADO_MAX)
 
 class Polinomio {
 public:
@@ -61,7 +61,7 @@ long Polinomio::evaluar(int valor) const {
 int main() {
 	
 #ifndef DOMJUDGE
-	std::ifstream in("Text.txt");
+	std::ifstream in("ED/PRACTICA1/Text.txt");
 	auto cinbuf = std::cin.rdbuf(in.rdbuf());
 #endif
 	int n, v;

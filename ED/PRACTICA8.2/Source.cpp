@@ -5,12 +5,12 @@
  */
 
  /*
-  * MUY IMPORTANTE: Para realizar este ejercicio solo podéis
-  * modificar el código contenido entre las etiquetas <answer>
-  * y </answer>. Toda modificación fuera de esas etiquetas está
-  * prohibida, pues no será corregida.
+  * MUY IMPORTANTE: Para realizar este ejercicio solo podï¿½is
+  * modificar el cï¿½digo contenido entre las etiquetas <answer>
+  * y </answer>. Toda modificaciï¿½n fuera de esas etiquetas estï¿½
+  * prohibida, pues no serï¿½ corregida.
   *
-  * Tampoco esta permitido modificar las líneas que contienen
+  * Tampoco esta permitido modificar las lï¿½neas que contienen
   * las etiquetas <answer> y </answer>, obviamente :-)
   */
 
@@ -31,7 +31,7 @@
 #include <fstream>
 
 /*
- * Implementación del TAD Conjunto mediante ABBs
+ * Implementaciï¿½n del TAD Conjunto mediante ABBs
  */
 template <typename T>
 class SetTree {
@@ -64,9 +64,9 @@ public:
 		return num_elems == 0;
 	}
 
-	// Esta es la función que tienes que implementar. Aquí solo
-	// está declarada. Tienes que implementarla más abajo, después
-	// de la declaración de la clase SetTree.
+	// Esta es la funciï¿½n que tienes que implementar. Aquï¿½ solo
+	// estï¿½ declarada. Tienes que implementarla mï¿½s abajo, despuï¿½s
+	// de la declaraciï¿½n de la clase SetTree.
 	int elems_in_interval(const T &lower, const T &upper) const;
 
 	
@@ -208,8 +208,8 @@ private:
 	}
 
 
-	// Si necesitas declarar más funciones auxiliares, hazlo aquí, pero
-	// luego impleméntalas abajo, entre las etiquetas <answer> y </answer>    
+	// Si necesitas declarar mï¿½s funciones auxiliares, hazlo aquï¿½, pero
+	// luego implemï¿½ntalas abajo, entre las etiquetas <answer> y </answer>    
 	void interval( Node *  tree, const T & lower, const T & upper,T & elem) const;
 };
 
@@ -258,7 +258,7 @@ void SetTree<T>::interval(  Node *  tree, const T & lower, const T & upper,T &el
 
 
 }
-// Implementa aquí los métodos auxiliares que hayas declarado en la clase.
+// Implementa aquï¿½ los mï¿½todos auxiliares que hayas declarado en la clase.
 
 /*@ </answer> */
 // ===============================================================================================
@@ -267,7 +267,7 @@ void SetTree<T>::interval(  Node *  tree, const T & lower, const T & upper,T &el
 using namespace std;
 
 bool tratar_caso() {
-	// Leemos los dos primeros números (N y M según el enunciado).
+	// Leemos los dos primeros nï¿½meros (N y M segï¿½n el enunciado).
 	int num_elems, num_consultas;
 	cin >> num_elems >> num_consultas;
 	if (cin.eof()) {
@@ -289,7 +289,7 @@ bool tratar_caso() {
 		int lower, upper;
 		cin >> lower >> upper;
 
-		// Llamar a la función implementada en el ejercicio e imprimir el resultado
+		// Llamar a la funciï¿½n implementada en el ejercicio e imprimir el resultado
 		cout << conjunto.elems_in_interval(lower, upper) << "\n";
 	}
 	cout << "---\n";
@@ -300,7 +300,7 @@ bool tratar_caso() {
 
 int main() {
 #ifndef DOMJUDGE
-	std::ifstream in("Text.txt");
+	std::ifstream in("ED/PRACTICA8.2/Text.txt");
 	auto cinbuf = std::cin.rdbuf(in.rdbuf());
 #endif
 

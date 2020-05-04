@@ -131,7 +131,7 @@ void tratar_caso() {
 
 int main() {
 #ifndef DOMJUDGE
-  std::ifstream in("Text.txt");
+  std::ifstream in("ED/PRACTICA6/Text.txt");
   auto cinbuf = std::cin.rdbuf(in.rdbuf());
 #endif
 

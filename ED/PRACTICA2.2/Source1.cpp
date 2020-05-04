@@ -5,12 +5,12 @@
  */
 
  /*
-  * MUY IMPORTANTE: Para realizar este ejercicio solo podéis
-  * modificar el código contenido entre las etiquetas <answer>
-  * y </answer>. Toda modificación fuera de esas etiquetas está
-  * prohibida, pues no será corregida.
+  * MUY IMPORTANTE: Para realizar este ejercicio solo podï¿½is
+  * modificar el cï¿½digo contenido entre las etiquetas <answer>
+  * y </answer>. Toda modificaciï¿½n fuera de esas etiquetas estï¿½
+  * prohibida, pues no serï¿½ corregida.
   *
-  * Tampoco esta permitido modificar las líneas que contienen
+  * Tampoco esta permitido modificar las lï¿½neas que contienen
   * las etiquetas <answer> y </answer>, obviamente :-)
   */
 
@@ -212,7 +212,7 @@ void ListLinkedSingle::display(std::ostream& out) const {
 }
 
 /* ==============================================================================================
- * Implementa aquí el método merge y la función merge_lists
+ * Implementa aquï¿½ el mï¿½todo merge y la funciï¿½n merge_lists
  * ==============================================================================================
  *
  *@ <answer>
@@ -220,14 +220,14 @@ void ListLinkedSingle::display(std::ostream& out) const {
 
  //COSTE DEL ALGORITMO
  //El coste de este algoritmo podemos decir de primeras que es lineal con respecto a la suma de la longitud de  de las dos listas ,ya que recorremos las dos listas en su totalidad
- //a continuación desglosaremos el coste de las distintas partes del algoritmo para justificar esto ultimo descrbiendo los distintos bucles del programa
- //en primer lugar tenemos los costes de los constructores de copia que son lineales con respecto al tamaño de ambas listas
- //en segundo lugar para obtener el tamaño de las listas , el metodo size recorre ambas listas siendo lineal por tanto con respecto al tamaño de ambas listas
- //los tres bucles siguientes se ejecutan un numero de veces igual a la suma del tamaño de ambas listas , nunca sera superior a esta suma
+ //a continuaciï¿½n desglosaremos el coste de las distintas partes del algoritmo para justificar esto ultimo descrbiendo los distintos bucles del programa
+ //en primer lugar tenemos los costes de los constructores de copia que son lineales con respecto al tamaï¿½o de ambas listas
+ //en segundo lugar para obtener el tamaï¿½o de las listas , el metodo size recorre ambas listas siendo lineal por tanto con respecto al tamaï¿½o de ambas listas
+ //los tres bucles siguientes se ejecutan un numero de veces igual a la suma del tamaï¿½o de ambas listas , nunca sera superior a esta suma
  //y por ultimo tenemos el bucle que nos da la vuelta a la lista inv para que este ordenada ascendentemente
 // como se coge aquel coste de orden mayor ,el coste quedaria 
-//en el orden de O(l1.size()+l2.size()) donde l1 y l2 son las dos listas que queremos mezclar,size hace referencia al tamaño de cada lista,
- //por ello el coste es lineal con respecto a la suma los tamaños de ambas listas.
+//en el orden de O(l1.size()+l2.size()) donde l1 y l2 son las dos listas que queremos mezclar,size hace referencia al tamaï¿½o de cada lista,
+ //por ello el coste es lineal con respecto a la suma los tamaï¿½os de ambas listas.
 
 
 
@@ -319,7 +319,7 @@ void tratar_caso() {
 int main() {
 
 #ifndef DOMJUDGE
-	std::ifstream in("Texto.txt");
+	std::ifstream in("ED/PRACTICA2.2/Texto.txt");
 	auto cinbuf = std::cin.rdbuf(in.rdbuf());
 #endif
 	int num_casos;

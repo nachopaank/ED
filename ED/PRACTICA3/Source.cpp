@@ -5,12 +5,12 @@
  */
 
  /*
-  * MUY IMPORTANTE: Para realizar este ejercicio solo podéis
-  * modificar el código contenido entre las etiquetas <answer>
-  * y </answer>. Toda modificación fuera de esas etiquetas está
-  * prohibida, pues no será corregida.
+  * MUY IMPORTANTE: Para realizar este ejercicio solo podï¿½is
+  * modificar el cï¿½digo contenido entre las etiquetas <answer>
+  * y </answer>. Toda modificaciï¿½n fuera de esas etiquetas estï¿½
+  * prohibida, pues no serï¿½ corregida.
   *
-  * Tampoco esta permitido modificar las líneas que contienen
+  * Tampoco esta permitido modificar las lï¿½neas que contienen
   * las etiquetas <answer> y </answer>, obviamente :-)
   */
 
@@ -238,7 +238,7 @@ std::ostream& operator<<(std::ostream& out, const ListLinkedDouble& l) {
 
 
 /* ==============================================================================================
- * Implementa aquí los métodos pedidos
+ * Implementa aquï¿½ los mï¿½todos pedidos
  * ==============================================================================================
  *
  *@ <answer>
@@ -248,11 +248,11 @@ using namespace std;
 /*
 Coste detach:
 El coste de este algortimo es constante ya que las instrucciones que presenta son meras asignaciones que son constantes 
-y se ejecutan una única vez, por tanto el método esta en el orden de O(1) tanto el caso mejor como el peor
+y se ejecutan una ï¿½nica vez, por tanto el mï¿½todo esta en el orden de O(1) tanto el caso mejor como el peor
 
 Coste attach;
 El coste de este algortimo es constante ya que las instrucciones que presenta son meras asignaciones que son constantes
-y se ejecutan una única vez, por tanto el método esta en el orden de O(1) similar al coste de detach tanto el caso mejor como el peor
+y se ejecutan una ï¿½nica vez, por tanto el mï¿½todo esta en el orden de O(1) similar al coste de detach tanto el caso mejor como el peor
 
 Coste de partition:
 El coste de este algoritmo es lineal con respecto al numero de elementos de la lista enlazada(num_elems) en el caso peor
@@ -317,7 +317,7 @@ void tratar_caso() {
 int main() {
     int num_casos;
 #ifndef DOMJUDGE
-    std::ifstream in("Text.txt");
+    std::ifstream in("ED/PRACTICA3/sample.in");
     auto cinbuf = std::cin.rdbuf(in.rdbuf());
 #endif
 
